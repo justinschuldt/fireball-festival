@@ -14,14 +14,7 @@ const Index = ({ data }) => (
       <Title as="h2" size="large">
         {data.homeJson.content.childMarkdownRemark.rawMarkdownBody}
       </Title>
-      <Modal>
-        {/* <video
-          src="https://i.imgur.com/gzFqNSW.mp4"
-          playsInline
-          loop
-          autoPlay
-          muted
-        /> */}
+      {/* <Modal>
         <iframe
           title="AP Video"
           width="560"
@@ -31,11 +24,11 @@ const Index = ({ data }) => (
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
-      </Modal>
+      </Modal> */}
     </Box>
     <Gallery items={data.homeJson.gallery} />
-    <div style={{ height: '50vh' }} />
-    <IOExample />
+    {/* <div style={{ height: '50vh' }} />
+    <IOExample /> */}
   </Layout>
 );
 

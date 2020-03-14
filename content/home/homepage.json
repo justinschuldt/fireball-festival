@@ -2,18 +2,18 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Celebrating 50 years",
+    "copy": "",
+    "image": "../images/gallery/classic-fireball.png"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "June 19th-21st, 2020",
+    "copy": "Friday, Saturday, Sunday",
+    "image": "../images/gallery/arial.png"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "Events, Competitions, Community",
+    "copy": "",
+    "image": "../images/gallery/present-crescent.jpg"
   }]
 }
