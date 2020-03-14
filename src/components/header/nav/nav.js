@@ -6,10 +6,16 @@ const Nav = () => (
   <Container>
     <ul>
       <li>
-        <Link to="/about">About</Link>
-      </li>
-      <li>
-        <a href="https://github.com/justinschuldt/fireball-festival">Source</a>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/schedule">Schedule</Link>
+        </li>
+        {/* <li>
+          <Link to="/forms">Forms</Link>
+        </li> */}
+        <li>
+          <Link to="/links">Links</Link>
       </li>
     </ul>
   </Container>
