@@ -1,0 +1,122 @@
+{
+    "title": "Schedule",
+    "dailySchedule": [{
+      "title": "Friday",
+      "date": "June 18th, 2020",
+      "events": [
+        {
+          "name": "Festival Kick off",
+          "time": "4:00pm",
+          "location": "Local bar",
+          "description": "Free T-Shirts for the first 50 people."
+        },
+      {
+        "name": "Amazing Race",
+        "time": "6:00pm",
+        "location": "Kicks off in the elementry school parking lot.",
+        "description": "Race around the town in golf carts looking for clues",
+        "files": [
+          {
+            "name": "Amazing Race signup form",
+            "path": "/forms/registration_form.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Beer tent opens",
+        "time": "7:30pm",
+        "location": "West of the Baseball feilds.",
+        "description": "Cans this year. 20 tickets for $40."
+      },
+      {
+        "name": "Last Call",
+        "time": "12:00am",
+        "description": "Last call for alchohol"
+      }
+      ]
+    },
+    {
+      "title": "Saturday",
+      "date": "June 20th, 2020",
+      "events": [
+      {
+        "name": "Merch tent opens",
+        "time": "8:00am",
+        "description": "",
+        "location": "",
+        "files": [
+          {
+            "name": "registration form",
+            "path": "/forms/registration_form.pdf"
+          }
+        ]
+      },
+      {
+        "name": "3 on 3 Basketball tournament",
+        "time": "10:00am",
+        "description": "All ages Men's and Women's brackets. Send forms to events@fireballfestival.com",
+        "files": [
+          {
+            "name": "Basketball registration form",
+            "path": "/forms/registration_form.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Fish Fry",
+        "time": "12:00pm",
+        "location": "Crescent City Church",
+        "description": "Fundraiser for the church, $5 suggested donation."
+      },
+      {
+        "name": "Comode Races",
+        "time": "3:00pm",
+        "location": "100 N Main St. Crescent City, IL",
+        "description": "Compete for the title of fasted comode in crescent city! Bring your cart and team, be ready to run! submit your registration forms to events@fireballfestival.com.",
+        "files": [
+          {
+            "name": "Comode race entry form",
+            "path": "/forms/registration_form.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Beer Tent opens",
+        "time": "8:00pm",
+        "location": "South of baseball fields",
+        "description": "Signup for an hour long shift working the taps, we'll show the name of your organization on the projector. Min 6 people required.",
+        "files": [
+          {
+            "name": "Beer tent shift signup",
+            "path": "/forms/registration_form.pdf"
+          }
+        ]
+      },
+      {
+        "name": "Last Call",
+        "time": "12:00am",
+        "description": "Last call for beer, music stops at 12:30am",
+        "location": "Beer Tent"
+      }
+      ]
+    },
+    {
+      "title": "Sunday",
+      "date": "June 21st, 2020",
+      "events": [
+      {
+        "name": "Fish Fry",
+        "time": "12:00pm",
+        "location": "Crescent City Church",
+        "description": "Fundraiser for the church, $5 suggested donation."
+      },
+      {
+        "name": "Closing Ceremonies",
+        "time": "2:00pm",
+        "location": "Grandstands",
+        "description": "The planning commity will send us off, until next time."
+      }
+      ]
+    }]
+  }
+  
