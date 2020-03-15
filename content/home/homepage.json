@@ -7,13 +7,14 @@
     "image": "../images/gallery/classic-fireball.png"
   },
   {
-    "title": "June 19th-21st, 2020",
-    "copy": "Friday, Saturday, Sunday",
+    "title": "Celebrating community",
+    "copy": "A weekend of events, food and drinks",
     "image": "../images/gallery/arial.png"
   },
   {
-    "title": "Events, Competitions, Community",
-    "copy": "",
+    "title": "Crescent City, Illinois",
+    "copy": "United States of America",
     "image": "../images/gallery/present-crescent.jpg"
-  }]
+  }
+]
 }

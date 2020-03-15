@@ -1,17 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Name, Time, Location, Description, Link } from './event.css';
+import { EventDiv, Name, Location, Description, Link } from './event.css';
 
 const Event = ({ name, time, location, description, files }) => (
-  <figure>
-    <Name>{name}</Name>
-    <Time>{time}</Time>
-    <Location>{location}</Location>
-    <figcaption>
-      <Description>{description}</Description>
-      {files ? files.map(file => <Link href={file.path} key={file.name}>{file.name}</Link>) : null}
-    </figcaption>
-  </figure>
+  <EventDiv>
+    <figure>
+      <Name>{name}</Name>
+      <Location>{time}{location ?  ` - ${location}` : null}</Location>
+      <figcaption>
+        <Description>{description}</Description>
+        {files ? files.map(file => <Link href={file.path} key={file.name}>{file.name}</Link>) : null}
+      </figcaption>
+    </figure>
+  </EventDiv>
 );
 
 Event.propTypes = {

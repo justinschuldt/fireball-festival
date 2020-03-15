@@ -1,16 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Date } from './day.css';
+import { DayDiv, Title, Date } from './day.css';
 import Event from '../event'
 
 const Day = ({ title, date, events }) => (
     <figure>
-        <Title>{title}</Title>
-        <Date>{date}</Date>
+        <DayDiv>
+            <Title>{title}</Title>
+            <Date>{date}</Date>
+        </DayDiv>
         <figcaption>
             {events.map(event => <Event {...event} key={event.name} />)}
         </figcaption>
-    </figure>
+        </figure>
 );
 
 Day.PropTypes = {
