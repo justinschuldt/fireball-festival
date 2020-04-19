@@ -1,20 +1,20 @@
 {
   "title": "Home",
   "content": "intro.md",
+  "body": "body.md",
   "gallery": [{
-    "title": "Celebrating 50 years",
-    "copy": "",
+    "title": "Celebrating 51 years",
+    "copy": "Summer 2021",
     "image": "../images/gallery/classic-fireball.png"
   },
   {
     "title": "Celebrating community",
-    "copy": "A weekend of events, food and drinks",
+    "copy": "",
     "image": "../images/gallery/arial.png"
   },
   {
     "title": "Crescent City, Illinois",
     "copy": "United States of America",
     "image": "../images/gallery/present-crescent.jpg"
-  }
-]
+  }]
 }
