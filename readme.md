@@ -58,3 +58,19 @@ yarn build:favicons
     ├── lighthouse.test.js # Tests the site specified inside `site-config.js` with Google Lighthouse (WIP)
     └── favicons.js # Generates favicons and manifest using one png only.
 ```
+
+
+### adding pages
+add a javascript file to `/src/pages/`, then add a link to the nav in `/src/components/header/nav/nav.js`
+
+### adding forms
+add to `/static/forms/`
+
+### updaing links
+update the markdown file [./content/links/content.md](./content/links/content.md)
+
+### add/update Schedule
+add a link to the nav [./src/components/header/nav/nav.js](./src/components/header/nav/nav.js)
+
+
+update the json [./content/schedule/schedule.json](./content/schedule/schedule.json)

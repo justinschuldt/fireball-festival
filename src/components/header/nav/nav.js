@@ -5,17 +5,11 @@ import { Container } from './nav.css';
 const Nav = () => (
   <Container>
     <ul>
+      {/* <li>
+        <Link to="/schedule">Schedule</Link>
+      </li> */}
       <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/schedule">Schedule</Link>
-        </li>
-        {/* <li>
-          <Link to="/forms">Forms</Link>
-        </li> */}
-        <li>
-          <Link to="/links">Links</Link>
+        <Link to="/links">Links</Link>
       </li>
     </ul>
   </Container>
