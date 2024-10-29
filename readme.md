@@ -3,11 +3,9 @@
 - gatsbyjs
 - inspired by https://github.com/fabe/gatsby-universal
 
-## CircleCi
-
-[https://circleci.com/gh/justinschuldt/fireball-festival](https://circleci.com/gh/justinschuldt/fireball-festival)
-
 ## Usage
+
+- works with node v14
 
 ```bash
 # To develop
