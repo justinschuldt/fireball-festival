@@ -1,122 +1,226 @@
 {
-    "title": "Schedule",
-    "dailySchedule": [{
-      "title": "Friday",
-      "date": "June 19th, 2020",
+  "title": "Schedule",
+  "dailySchedule": [
+    {
+      "title": "Thursday",
+      "date": "June 12th, 2025",
       "events": [
         {
-          "name": "Festival Kick off",
-          "time": "4:00pm",
-          "location": "Local bar",
-          "description": "Free T-Shirts for the first 50 people."
+          "time": "4:30 - 5:30pm",
+          "name": "Registration for 5K"
         },
-      {
-        "name": "Amazing Race",
-        "time": "6:00pm",
-        "location": "Kicks off in the elementry school parking lot.",
-        "description": "Race around the town in golf carts looking for clues",
-        "files": [
-          {
-            "name": "Amazing Race signup form",
-            "path": "/forms/registration_form.pdf"
-          }
-        ]
-      },
-      {
-        "name": "Beer tent opens",
-        "time": "7:30pm",
-        "location": "West of the Baseball feilds.",
-        "description": "Cans this year. 20 tickets for $40."
-      },
-      {
-        "name": "Last Call",
-        "time": "12:00am",
-        "description": "Last call for alchohol"
-      }
+        {
+          "time": "6:00pm",
+          "name": "5K Race",
+          "location": "Heritage Park"
+        }
+      ]
+    },
+    {
+      "title": "Friday",
+      "date": "June 13th, 2025",
+      "events": [
+        {
+          "time": "4:00pm",
+          "name": "Woodworth-Style Fish Fry",
+          "location": "City Building"
+        },
+        {
+          "time": "4:00pm - 12:00am",
+          "name": "Food Trucks"
+        },
+        {
+          "time": "4:00pm - 12:00am",
+          "name": "Beer Tent",
+          "location": "Parking Lot of Heritage Park"
+        },
+        {
+          "time": "7:30pm",
+          "name": "Fireball Idol Finals",
+          "location": "Heritage Park",
+          "files": [
+            {
+              "name": "Fireball Idol Registration Form",
+              "path": "/forms/Fireball-Idol-Registration-Form.pdf"
+            },
+            {
+              "name": "Liability Waiver",
+              "path": "/forms/Fireball-Event-Liability-Waiver.docx"
+            }
+          ]
+        },
+        {
+          "time": "8:00pm - 12:00am",
+          "name": "DJ (Off Track Productions)",
+          "location": "Heritage Park"
+        },
+        {
+          "time": "9:00pm",
+          "name": "Lighted Golf Cart Parade",
+          "description": "Stay Golden"
+        }
       ]
     },
     {
       "title": "Saturday",
-      "date": "June 20th, 2020",
+      "date": "June 14th, 2025",
       "events": [
-      {
-        "name": "Merch tent opens",
-        "time": "8:00am",
-        "description": "",
-        "location": "",
-        "files": [
-          {
-            "name": "registration form",
-            "path": "/forms/registration_form.pdf"
-          }
-        ]
-      },
-      {
-        "name": "3 on 3 Basketball tournament",
-        "time": "10:00am",
-        "description": "All ages Men's and Women's brackets. Send forms to events@fireballfestival.com",
-        "files": [
-          {
-            "name": "Basketball registration form",
-            "path": "/forms/registration_form.pdf"
-          }
-        ]
-      },
-      {
-        "name": "Fish Fry",
-        "time": "12:00pm",
-        "location": "Crescent City Church",
-        "description": "Fundraiser for the church, $5 suggested donation."
-      },
-      {
-        "name": "Comode Races",
-        "time": "3:00pm",
-        "location": "100 N Main St. Crescent City, IL",
-        "description": "Compete for the title of fasted comode in crescent city! Bring your cart and team, be ready to run! submit your registration forms to events@fireballfestival.com.",
-        "files": [
-          {
-            "name": "Comode race entry form",
-            "path": "/forms/registration_form.pdf"
-          }
-        ]
-      },
-      {
-        "name": "Beer Tent opens",
-        "time": "8:00pm",
-        "location": "South of baseball fields",
-        "description": "Signup for an hour long shift working the taps, we'll show the name of your organization on the projector. Min 6 people required.",
-        "files": [
-          {
-            "name": "Beer tent shift signup",
-            "path": "/forms/registration_form.pdf"
-          }
-        ]
-      },
-      {
-        "name": "Last Call",
-        "time": "12:00am",
-        "description": "Last call for beer, music stops at 12:30am",
-        "location": "Beer Tent"
-      }
+        {
+          "time": "7:00am",
+          "name": "BBQ Smoke-Off Begins",
+          "location": "Outside Baseball Diamond, Left Field",
+          "files": [
+            {
+              "name": "BBQ Registration Form & Rules",
+              "path": "/forms/2025-BBQ-Registration-Form-&-Rules.pdf"
+            },
+            {
+              "name": "Liability Waiver",
+              "path": "/forms/Fireball-Event-Liability-Waiver.docx"
+            }
+          ]
+        },
+        {
+          "time": "9:00am - 4:00pm",
+          "name": "Crescent City Historical Society Open",
+          "location": "Upstairs City Hall"
+        },
+        {
+          "time": "10:00am - 12:00pm",
+          "name": "Lemonade Shake-Ups",
+          "location": "Fire Memorial on Route 24",
+          "description": "Crescent City Catholic Church"
+        },
+        {
+          "time": "10:30am - 12:00pm",
+          "name": "WGFA Live Remote",
+          "location": "Fire Memorial on Route 24"
+        },
+        {
+          "time": "11:00am",
+          "name": "Grand Parade",
+          "description": "All Aboard for Fireball – 55 Years of Golden Memories"
+        },
+        {
+          "time": "12:00pm - 6:00pm",
+          "name": "Crescent City Historical Society Items for Sale",
+          "location": "Heritage Park Concession Stand"
+        },
+        {
+          "time": "12:00pm - 1:00am",
+          "name": "Food Trucks"
+        },
+        {
+          "time": "12:00pm - 1:00am",
+          "name": "Beer Tent",
+          "location": "Parking Lot of Heritage Park"
+        },
+        {
+          "time": "1:00pm - 4:00pm",
+          "name": "Car Show",
+          "location": "Parking Lot of Old High School",
+          "files": [
+            {
+              "name": "Crescent City Car Show Flyer",
+              "path": "/forms/Crescent-City-Car-Show-Flyer.docx"
+            },
+            {
+              "name": "Liability Waiver",
+              "path": "/forms/Fireball-Event-Liability-Waiver.docx"
+            }
+          ]
+        },
+        {
+          "time": "1:00pm - 4:00pm",
+          "name": "High School Reunions",
+          "location": "Crescent City Grade School Gym"
+        },
+        {
+          "time": "1:00pm - 5:00pm",
+          "name": "Ice Cream Social",
+          "location": "Heritage Park Concession Stand",
+          "description": "Crescent City Methodist Church"
+        },
+        {
+          "time": "1:00pm - 5:00pm",
+          "name": "Kid’s Zone",
+          "location": "Baseball Field at Heritage Park",
+          "description": "Kid’s Inflatables, Touch-A-Truck, Face Painting, Kid’s Karoke"
+        },
+        {
+          "time": "2:00pm BBQ Smoke-Off",
+          "name": "Judging",
+          "location": "Heritage Park Pavilion"
+        },
+        {
+          "time": "2:00pm - 4:00pm",
+          "name": "5th Grade Time Capsule Opening",
+          "description": "Class of 2015-Class of 2025"
+        },
+        {
+          "time": "4:00pm",
+          "name": "Car Show Cruise"
+        },
+        {
+          "time": "3:00pm - 5:00pm",
+          "name": "Kiddie Tractor Pull",
+          "location": "Heritage Park",
+          "description": "Cissna Park FFA"
+        },
+        {
+          "time": "5:00pm",
+          "name": "Pork Chop Dinner",
+          "location": "City Building",
+          "description": "Pork Producers"
+        },
+        {
+          "time": "4:00pm - 6:00pm",
+          "name": "Family Feud",
+          "location": "Heritage Park"
+        },
+        {
+          "time": "6:30pm",
+          "name": "Commode Races",
+          "location": "Parking Lot of Old High School",
+          "files": [
+            {
+              "name": "Fireball Festival Commode Race Rules & Reg Form",
+              "path": "/forms/Fireball-Festival-Commode-Race-Rules-&-Reg-Form.pdf"
+            },
+            {
+              "name": "Liability Waiver",
+              "path": "/forms/Fireball-Event-Liability-Waiver.docx"
+            }
+          ]
+        },
+        {
+          "time": "7:30pm",
+          "name": "Cornhole Board Raffle"
+        },
+        {
+          "time": "8:00pm - 12:30am",
+          "name": "Band (High Anxiety)",
+          "location": "Heritage Park"
+        },
+        {
+          "time": "9:00pm",
+          "name": "Fireworks",
+          "location": "Heritage Park",
+          "description": "Bring Your Own Lawn Chairs. Rain Date for Fireworks: June 15"
+        }
       ]
     },
     {
       "title": "Sunday",
-      "date": "June 21st, 2020",
+      "date": "June 15th, 2025",
       "events": [
-      {
-        "name": "Fish Fry",
-        "time": "12:00pm",
-        "location": "Crescent City Church",
-        "description": "Fundraiser for the church, $5 suggested donation."
-      },
-      {
-        "name": "Closing Ceremonies",
-        "time": "2:00pm",
-        "location": "Grandstands",
-        "description": "The planning commity will send us off, until next time."
-      }
+        {
+          "time": "10:15am",
+          "name": "All-Faith Church Service",
+          "location": "Heritage Park Pavilion",
+          "description": "Bring Your Own Lawn Chairs"
+        }
       ]
-    }]
-  }
-  
+    }
+  ]
+}
