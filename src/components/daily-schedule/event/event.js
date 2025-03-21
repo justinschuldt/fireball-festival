@@ -1,18 +1,25 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { EventDiv, Name, Location, Description, Link } from './event.css';
+import { EventFigure, Time, Name, Description, Files, Link } from './event.css';
 
 const Event = ({ name, time, location, description, files }) => (
-  <EventDiv>
-    <figure>
-      <Name>{name}</Name>
-      <Location>{time}{location ?  ` - ${location}` : null}</Location>
-      <figcaption>
-        <Description>{description}</Description>
-        {files ? files.map(file => <Link href={file.path} key={file.name}>{file.name}</Link>) : null}
-      </figcaption>
-    </figure>
-  </EventDiv>
+  <EventFigure>
+    <Time>{time}</Time>
+    <Name>{name}{location ? ` - ${location}` : null}
+      {description ? <Description>{description}</Description> : null}
+      {files && (
+        <Files>
+          <ul style={{ listStyle: 'none', padding: '0.4rem' }}>
+            {files.map(file => (
+              <li key={file.name}>
+                <Link target='_blank' href={file.path}>{file.name}</Link>
+              </li>
+            ))}
+          </ul>
+        </Files>
+      )}
+    </Name>
+  </EventFigure>
 );
 
 Event.propTypes = {
@@ -20,7 +27,12 @@ Event.propTypes = {
   time: PropTypes.string.isRequired,
   location: PropTypes.string,
   description: PropTypes.string,
-  files: PropTypes.arrayOf(PropTypes.object),
+  files: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      path: PropTypes.string.isRequired,
+    })
+  ),
 };
 
 export default Event;

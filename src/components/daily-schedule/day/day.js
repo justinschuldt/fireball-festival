@@ -4,21 +4,34 @@ import { DayDiv, Title, Date } from './day.css';
 import Event from '../event'
 
 const Day = ({ title, date, events }) => (
-    <figure>
+    <>
         <DayDiv>
             <Title>{title}</Title>
             <Date>{date}</Date>
         </DayDiv>
-        <figcaption>
+        <>
             {events.map(event => <Event {...event} key={event.name} />)}
-        </figcaption>
-        </figure>
+        </>
+    </>
 );
 
-Day.PropTypes = {
-    title: PropTypes.object.isRequired,
-    date: PropTypes.object.isRequired,
-    events: PropTypes.arrayOf(PropTypes.objects).isRequired,
+Day.propTypes = {
+    title: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired,
+    events: PropTypes.arrayOf(
+        PropTypes.shape({
+            name: PropTypes.string.isRequired,
+            time: PropTypes.string.isRequired,
+            location: PropTypes.string,
+            description: PropTypes.string,
+            files: PropTypes.arrayOf(
+                PropTypes.shape({
+                    name: PropTypes.string.isRequired,
+                    path: PropTypes.string.isRequired,
+                })
+            ),
+        })
+    ).isRequired,
 };
 
 export default Day;
