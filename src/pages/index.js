@@ -4,7 +4,7 @@ import Layout from 'components/layout';
 import Box from 'components/box';
 import Title from 'components/title';
 import Gallery from 'components/gallery';
-import Item from 'components/gallery/item'
+import Item from 'components/gallery/item';
 import { graphql } from 'gatsby';
 import styled from 'styled-components';
 import MEDIA from 'helpers/mediaTemplates';
@@ -40,14 +40,12 @@ const Index = ({ data }) => (
       />
     </Box>
 
-    {data.homeJson.featureGallery && data.homeJson.featureGallery.length == 1 ?
-
-
+    {data.homeJson.featureGallery &&
+    data.homeJson.featureGallery.length == 1 ? (
       <FeatureContainer>
         <Item {...data.homeJson.featureGallery[0]}></Item>
       </FeatureContainer>
-      : null}
-
+    ) : null}
   </Layout>
 );
 

@@ -4,12 +4,18 @@ import Day from 'components/daily-schedule/day';
 import { Container } from './daily-schedule.css';
 
 const DailySchedule = ({ days }) => (
-  <Container>
-    {days.map(day => (
-      <Day {...day} key={day.date} />
-    ))}
-  </Container>
+  <>
+    <Container>
+      <h1>Schedule</h1>
+    </Container>
+    <Container>
+      {days.map(day => (
+        <Day {...day} key={day.date} />
+      ))}
+    </Container>
+  </>
 );
+
 
 DailySchedule.propTypes = {
   days: PropTypes.arrayOf(PropTypes.object).isRequired,
