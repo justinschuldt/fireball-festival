@@ -19,11 +19,5 @@
       "image": "../images/gallery/present-crescent.jpg"
     }
   ],
-  "featureGallery": [
-    {
-      "title": "Trivia Night!",
-      "copy": "6:30pm Nov 9th, 2025 ",
-      "image": "../images/gallery/2025-trivia-fundraiser.jpg"
-    }
-  ]
+  "featureGallery": []
 }
