@@ -82,17 +82,6 @@ export const query = graphql`
           }
         }
       }
-      featureGallery {
-        title
-        copy
-        image {
-          childImageSharp {
-            fluid(maxHeight: 500, quality: 90) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-      }
     }
   }
 `;

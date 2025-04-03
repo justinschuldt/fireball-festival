@@ -2,6 +2,22 @@
   "title": "Schedule",
   "dailySchedule": [
     {
+      "title": "Pre-Festival Events",
+      "date": "",
+      "events": [
+        {
+          "time": "",
+          "name": "T-Shirt Pre-Orders",
+          "files": [
+            {
+              "name": "T-Shirt Order Form",
+              "path": "/forms/t-shirt-order-form.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "title": "Thursday",
       "date": "June 12th, 2025",
       "events": [
@@ -12,7 +28,13 @@
         {
           "time": "6:00pm",
           "name": "5K Race",
-          "location": "Heritage Park"
+          "location": "Heritage Park",
+          "files": [
+            {
+              "name": "5K Registration Form",
+              "path": "/forms/5K-Run-2 Mile-Walk-Waiver.pdf"
+            }
+          ]
         }
       ]
     },
@@ -57,7 +79,13 @@
         {
           "time": "9:00pm",
           "name": "Lighted Golf Cart Parade",
-          "description": "Stay Golden"
+          "description": "Stay Golden",
+          "files": [
+            {
+              "name": "Lighted Golf Cart Parade Registration Form",
+              "path": "/forms/Lighted-Golf-Cart-Parade-Form.pdf"
+            }
+          ]
         }
       ]
     },
@@ -99,7 +127,13 @@
         {
           "time": "11:00am",
           "name": "Grand Parade",
-          "description": "All Aboard for Fireball – 55 Years of Golden Memories"
+          "description": "All Aboard for Fireball – 55 Years of Golden Memories",
+          "files": [
+            {
+              "name": "Grand Parade Registration Form",
+              "path": "/forms/Parade-Registration-Form.pdf"
+            }
+          ]
         },
         {
           "time": "12:00pm - 6:00pm",
@@ -176,7 +210,14 @@
         {
           "time": "4:00pm - 6:00pm",
           "name": "Family Feud",
-          "location": "Heritage Park"
+          "location": "Heritage Park",
+          "description": "Limited to the first 10 families, first come first serve.",
+          "files": [
+            {
+              "name": "Fireball Festival Family Feud Registration Form",
+              "path": "/forms/Fireball-Feud-Registration-Form.pdf"
+            }
+          ]
         },
         {
           "time": "6:30pm",
